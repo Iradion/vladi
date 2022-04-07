@@ -35,12 +35,11 @@ body {
 }
 
 .profile__img {
-  width: 20rem;
+  width: 15rem;
   height: auto;
   border-radius: 50%;
   border: 2px solid whitesmoke;
   margin: 0 0 1rem 0;
-  object-fit: contain;
 }
 .profile__nombre {
   font-size: 1.8rem;
@@ -57,7 +56,7 @@ body {
 }
 .perfil__encabezado {
   color: #023e8a;
-  padding: 0.5rem 5rem;
+  padding: 0.5rem 7rem;
   background-color: #f4f5f7;
   border-radius: 2rem;
 }
@@ -72,7 +71,7 @@ body {
 }
 .tecnologias__encabezado {
   color: #023e8a;
-  padding: 0.5rem 12.5rem;
+  padding: 0.5rem 8.5rem;
   background-color: #f4f5f7;
   border-radius: 2rem;
 }
@@ -98,7 +97,7 @@ body {
 }
 .contacto__encabezado {
   color: #023e8a;
-  padding: 0.5rem 11.5rem;
+  padding: 0.5rem 10rem;
   background-color: #f4f5f7;
   border-radius: 2rem;
   align-self: center;
@@ -110,15 +109,11 @@ body {
   display: flex;
   align-items: center;
 }
+.mail__icon,
 .whatsapp__icon,
 .location__icon {
   width: 3rem;
   height: auto;
-}
-.mail__icon {
-  width: 2.5rem;
-  height: auto;
-  margin: .3rem;
 }
 
 .main {
@@ -142,7 +137,7 @@ body {
   align-items: center;
 }
 .line__historial {
-  width: 90%;
+  width: 50%;
   height: 1px;
   border: 1px solid #023e8a;
 }
@@ -155,7 +150,6 @@ body {
   color: #023e8a;
   padding: 0 2rem;
 }
-
 .formacion__encabezado1 {
   width: 10%;
 }
@@ -189,15 +183,10 @@ body {
   border: 1px solid #023e8a;
 }
 .habilidades__box {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-flow: column;
-  padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+    padding: 1rem 2rem;
 }
-main p {
-  padding: 0 2rem;
-}
-main p:nth-of-type(3n + 3) {
-  margin: 0 0 1rem;
-}
+
