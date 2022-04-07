@@ -10,8 +10,9 @@ html {
   color: #f4f5f7;
   width: 79.3rem;
   max-width: 79.3rem;
-  height: 112.2rem;
-  margin: 0 auto; /* <--- quitar? */
+  height: 111rem;
+  display: flex;
+  justify-content: center; /* <--- quitar? */
 }
 body {
   display: flex;
@@ -118,7 +119,7 @@ body {
 .mail__icon {
   width: 2.5rem;
   height: auto;
-  margin: .3rem;
+  margin: 0.3rem;
 }
 
 .main {
